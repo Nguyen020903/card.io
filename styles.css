@@ -7,6 +7,7 @@ body {
 
 .card {
     width: 300px;
+    aspect-ratio: 5/6;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -14,6 +15,11 @@ body {
     margin: 50px auto;
     text-align: center;
     border: 2px solid #cccccc;
+}
+
+.card img {
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 h1 {
@@ -33,5 +39,9 @@ a {
     border-radius: 10px;
     text-align: center;
     padding: 10px;
+    position: relative ;
+}
+
+.link {
     margin: 30px;
 }
